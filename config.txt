@@ -1,5 +1,5 @@
-fileStat(path = './tmp/1k'   , size = 1024   , count = 10)
-fileStat(path = './tmp/10k'  , size = 10240  , count = 10)
-fileStat(path = './tmp/100k' , size = 102400 , count = 10)
-fileStat(path = './tmp/1000k', size = 1024000, count = 10)
+fileStat(path = './tmp/fileStat/1k'   , size = 1024   , count = 100)
 
+fileCopy(src = './tmp/fileCopy/100k', dest = r'//nas01/home/chiyama/tmp/fileCopy/100k', size = 102400, count = 10)
+fileCopy(src = './tmp/fileCopy/1M', dest = r'//nas01/home/chiyama/tmp/fileCopy/1M', size = 1024000, count = 10)
+fileCopy(src = './tmp/fileCopy/10M', dest = r'//nas01/home/chiyama/tmp/fileCopy/10M', size = 102400000, count = 10)
